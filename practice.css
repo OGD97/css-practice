@@ -1,14 +1,44 @@
+/* Use rem instead of em */
+
+body
+{
+  margin: 0;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+  font-size: 2rem;
+  color: #F75940;
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #F75940;
+}
+
+header, footer
+{
+  background-color: #334252;
+  color: #F75940;
+
+}
+
 .container
 {
-  
-}
-
-.top
-{
+  width: 100%;
+  padding: 10px;
+  /* border: 2px solid magenta; */
 
 }
 
-.content
-{
+img{
+  width: 100%;
+}
 
+.section-two
+{
+  background: #2e354f;
+  color: #fff;
 }
