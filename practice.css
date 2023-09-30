@@ -13,7 +13,10 @@ object-position: 25% 45%;  */
 
 body
 {
+  background-color: black;
   font-size: 1.125 rem;
+  /* margin: 0; */
+  color: #707070;
 }
 .container
 {
@@ -35,6 +38,10 @@ h1
   font-size: 3rem;
 }
 
+h1 span
+{
+  color:crimson ;
+}
 h2
 {
   font-size: 1.5rem;
@@ -43,7 +50,7 @@ h2
 
 p
 {
-  color: #707070;
+  color: white;
 }
 
 .columns-1
@@ -60,8 +67,8 @@ p
 {
 
 }
-
 .notes
 {
-  background-color: #312614;
+  background-color: crimson;
+  padding: 8px;
 }
