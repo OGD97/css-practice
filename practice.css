@@ -13,10 +13,10 @@ object-position: 25% 45%;  */
 
 body
 {
-  background-color: black;
+  background-color: #FCE09B;
   font-size: 1.125 rem;
   /* margin: 0; */
-  color: #707070;
+  color: #186F65;
 }
 .container
 {
@@ -40,17 +40,16 @@ h1
 
 h1 span
 {
-  color:crimson ;
+  color:firebrick ;
 }
 h2
 {
   font-size: 1.5rem;
-  color: #707070;
 }
 
 p
 {
-  color: white;
+  color: black;
 }
 
 .columns-1
@@ -63,12 +62,27 @@ p
   display: flex;
 }
 
-.col
+.size-1
 {
+  width: 25%;
+}
 
+.size-2
+{
+  width: 50%;
+}
+
+.size-3
+{
+  width: 75%;
+}
+.col-bg
+{
+  background-color: #B2533E;
+  margin: 1.5rem 0;
 }
 .notes
 {
-  background-color: crimson;
+  color: antiquewhite;
   padding: 8px;
 }
