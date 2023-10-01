@@ -13,7 +13,8 @@ object-position: 25% 45%;  */
 
 body
 {
-  background-color: #053B50;
+  margin: 0;
+  background-color: #cf4f28;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.125 rem;
   /* margin: 0; */
@@ -31,6 +32,7 @@ img
   height: 150px; 
   object-fit: cover;
   object-position: 25% 45%; 
+
   
 }
 
@@ -50,7 +52,7 @@ h2
 
 p
 {
-  color: black;
+  color: wheat;
 }
 
 .columns-1
@@ -79,11 +81,11 @@ p
 }
 .col-bg
 {
-  background-color: #64CCC5;
-  margin: 1.5rem 0;
+  background-color: firebrick;
+  margin: 1.2rem 0;
 }
 .notes
 {
-  color: #EEEEEE;
-  padding: 8px;
-}
+  color: wheat;
+  padding: 0px 10px;
+  }
