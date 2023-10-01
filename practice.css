@@ -13,7 +13,6 @@ object-position: 25% 45%;  */
 
 body
 {
-  margin: 0;
   background-color: #cf4f28;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.125 rem;
@@ -24,6 +23,7 @@ body
 {
   max-width: 960px;
   margin: 0 auto;
+  
 }
 
 img
@@ -58,26 +58,28 @@ p
 .columns-1
 {
   display: flex;
+  justify-content: space-between;
 }
 
 .columns-2
 {
   display: flex;
+  justify-content: space-between;
 }
 
 .size-1
 {
-  width: 25%;
+  width: 20%;
 }
 
 .size-2
 {
-  width: 50%;
+  width: 45%;
 }
 
 .size-3
 {
-  width: 75%;
+  width: 70%;
 }
 .col-bg
 {
