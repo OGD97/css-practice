@@ -13,10 +13,11 @@ object-position: 25% 45%;  */
 
 body
 {
-  background-color: #FCE09B;
+  background-color: #053B50;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.125 rem;
   /* margin: 0; */
-  color: #186F65;
+  color: #EEEEEE;
 }
 .container
 {
@@ -78,11 +79,11 @@ p
 }
 .col-bg
 {
-  background-color: #B2533E;
+  background-color: #64CCC5;
   margin: 1.5rem 0;
 }
 .notes
 {
-  color: antiquewhite;
+  color: #EEEEEE;
   padding: 8px;
 }
