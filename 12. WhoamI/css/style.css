@@ -27,18 +27,31 @@
   border-radius: 50%;
 } */
 
-@media (min)
-
 body{
   margin: 0;
 }
-.container
+
+.container-top
 {
- 
-  width: auto;
+
 }
 
-.name
+.container-mid-1
+{
+
+}
+
+.container-mid-2
+{
+
+}
+
+.container-bottom
+{
+
+}
+
+h1
 {
   margin: 0;
   font-family: 'Pacifico', cursive;
@@ -47,7 +60,7 @@ body{
 
 }
 
-.name-2
+h2
 {
   margin: 0;
   font-family: 'Pixelify Sans', sans-serif;
@@ -55,20 +68,19 @@ body{
   color: black;
 }
 
-.top-1
-{
-  height: 500px;
-  background-color: blue;
-}
-
-.top-2
+p
 {
 
 }
 
-.mid-1
+img
 {
 
+}
+
+.button-contact
+{
+  
 }
 /* Colors: orange, white, purple, black 
 Orange: F99417
