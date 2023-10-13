@@ -1,0 +1,84 @@
+.background {
+  background: linear-gradient(300deg, purple, white, black);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* .icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+} */
+
+@media (min)
+
+body{
+  margin: 0;
+}
+.container
+{
+ 
+  width: auto;
+}
+
+.name
+{
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #F99417;
+
+}
+
+.name-2
+{
+  margin: 0;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.top-1
+{
+  height: 500px;
+  background-color: blue;
+}
+
+.top-2
+{
+
+}
+
+.mid-1
+{
+
+}
+/* Colors: orange, white, purple, black 
+Orange: F99417
+Purple: 6554AF
+White
+Black
+
+What kind of website ?
+
+
+*/
+
+
