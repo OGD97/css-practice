@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(300deg, purple, white, black);
+  background: linear-gradient(300deg, #F99417, white, #F99417);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -29,11 +29,17 @@
 
 body{
   margin: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .container-top
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  height: 500px;
 }
 
 .container-mid-1
@@ -57,7 +63,6 @@ h1
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
   color: #F99417;
-
 }
 
 h2
@@ -80,7 +85,7 @@ img
 
 .button-contact
 {
-  
+
 }
 /* Colors: orange, white, purple, black 
 Orange: F99417
