@@ -38,23 +38,26 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   height: 500px;
 }
 
 .container-mid-1
 {
-
+  
+  height:450px;
+  background-color: wheat;
 }
 
 .container-mid-2
 {
-
+  height:450px;
+  background-color: burlywood;
 }
 
 .container-bottom
 {
-
+  height:450px;
+  background-color: white;
 }
 
 h1
@@ -80,6 +83,9 @@ p
 
 img
 {
+  padding: 50px 0px;
+  height: 200px;
+  border-radius: 50%;
 
 }
 
