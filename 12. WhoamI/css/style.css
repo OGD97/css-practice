@@ -38,20 +38,23 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 200px;
 }
 
 .container-mid-1
 {
   
-  height:450px;
-  background-color: wheat;
+  height: fit-content;
+  padding: 20px;
+  margin: 0px;
+  
 }
 
 .container-mid-2
 {
-  height:450px;
-  background-color: burlywood;
+  height: fit-content;
+  padding: 20px;
+  background-color: ;
 }
 
 .container-bottom
@@ -83,9 +86,10 @@ p
 
 img
 {
-  padding: 50px 0px;
+ 
+  border: 4px solid #F99417;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
 
 }
 
