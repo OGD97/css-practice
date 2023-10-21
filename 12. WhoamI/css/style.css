@@ -37,8 +37,8 @@ body{
 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 200px;
+  height: fit-content;
+  padding: 3.5rem 0;  
 }
 
 .container-mid-1
@@ -54,7 +54,13 @@ body{
 {
   height: fit-content;
   padding: 20px;
-  background-color: ;
+  background-color: blanchedalmond;
+}
+
+.skills
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container-bottom
