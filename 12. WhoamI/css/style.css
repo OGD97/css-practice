@@ -59,8 +59,11 @@ body{
 
 .container-bottom
 {
-  height:450px;
-  background-color: white;
+  height: min-content;
+  overflow: hidden;
+  padding: 2.5rem 0;
+  margin: 0;
+  background-color: #F99417;
 }
 
 h1
@@ -95,6 +98,21 @@ img
 
 .button-contact
 {
+  border: 2px solid white;
+  background-color: #F99417;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
+
+}
+
+.button-contact:hover
+{
+  border: 2px solid #F99417;
+  background-color: white;
+  color: #F99417;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
 
 }
 /* Colors: orange, white, purple, black 
