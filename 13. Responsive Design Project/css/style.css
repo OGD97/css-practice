@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,300;1,400&display=swap');
+
+:root{
+  --orange: #F99417;
+}
+
+*
+{
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none; /*?*/
+  outline: none; /*?*/
+  margin: 0; padding: 0;
+  box-sizing: border-box; /*?*/
+}
+
+*::selection
+{
+  background: var(--orange);
+  color: white;
+}
+
+html
+{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body
+{
+  background-color: #333;
+}
+
+header
+{
+  width: 100%;
+  background: var(--orange);
+  position: fixed;
+  /* top: 2rem; left: 50%;  */
+  /* transform: translateX(-50%);  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* z-index: 1000; */
+
+}
+
+header .navbar ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none; /*?*/
+}
+
+header .navbar ul li
+{
+  margin: 0 1rem; /*?*/
+}
+
+header .navbar ul li a
+{
+  font-size: 1.5rem;
+  color: white
+}
+
+header .fa-bars:hover,
+header .navbar ul li a:hover
+{
+  background-color: var(--orange);
+  color: #333;
+
+}
+
+.fas
+{
+  padding: 0rem .75rem;
+  color: white;
+}
+
+header .logo
+{
+
+  color: white;
+  font-size: 2rem;
+}
+
+header .fa-bars
+{
+  font-size: 2rem;
+  cursor: context-menu;
+  display: none;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px)
+{
+  
+
+  header .fa-bars
+  {
+    display: block;
+  }
+
+  header .navbar
+  {
+    position: fixed;
+    top: 5.7rem; left: 0;
+    width: 100%;
+    background: var(--orange);
+    border-radius: 1rem;
+  }
+
+  header .navbar ul
+  {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  header .navbar ul li
+  {
+    padding: .3rem 0;
+  }
+}
