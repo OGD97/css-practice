@@ -59,7 +59,7 @@ header
   top: 0;
   width: 100%;
   border-radius: 0;
-  box-shadow: 0 .1rem .3rem black;
+  box-shadow: 0 .1rem .3rem rgb(0, 0, 0, .3);
 }
 header .navbar ul
 {
@@ -171,7 +171,7 @@ header .fa-times
   cursor: pointer;
   transition: .2s;
   border: none;
-  box-shadow: 0 .3rem 1rem black;
+  box-shadow: 0 .3rem 1rem rgb(0, 0, 0, .3);
 }
 
 .home .content button:hover
@@ -193,7 +193,7 @@ header .fa-times
   background: white;
   text-align: center;
   border-radius: 1rem;
-  box-shadow: 0rem .3rem .5rem black;
+  box-shadow: 0rem .3rem .5rem rgb(0, 0, 0, .3);
   margin: 2rem;
   cursor: pointer;
 }
@@ -367,20 +367,20 @@ header .fa-times
 .about .row .content button
 {
   height: 3.5rem;
-  width: 17rem;
+  width: 15rem;
   background-color: #F99417;
   color: white;
   border: none;
   border-radius: 5rem;
-  box-shadow: 0 .3rem 1rem black;
+  box-shadow: 0 .3rem 1rem rgb(0, 0, 0, .3);
   cursor: pointer;
   transition: .2s;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .about .row .content button:hover
 {
   letter-spacing: .2rem;
-  opacity: .2rem;
+  opacity: .8rem;
 }
 
 
@@ -470,6 +470,6 @@ header .fa-times
 
 .about .row .content
 {
-  padding: 0 2.5rem;
+  padding: 0 10rem;
 }
 }
