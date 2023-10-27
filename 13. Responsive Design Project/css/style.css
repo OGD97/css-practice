@@ -34,12 +34,14 @@ body
 
 /* HEADER START */
 
+
 header
 {
   width: 96%;
   background: var(--orange);
   position: fixed;
-  top: 1.5rem; left: 50%; 
+  top: 1.5rem;
+   left: 50%; 
   transform: translateX(-50%);
   border-radius: 10rem;
   z-index: 1000;
@@ -50,6 +52,7 @@ header
   transition: .2s linear;
 
 }
+
 
 .header-active
 {
@@ -157,15 +160,6 @@ header .fa-times
 
 }
 
-/* 
-@media (max-width: 800px)
-{
-  .home .content p
-  {
-    width: 70%;
-  }
-} */
-
 .home .content button
 {
   height:4rem;
@@ -252,17 +246,20 @@ header .fa-times
 }
 
 
+/* ABOUT START */
+
+/* 
 .about .heading
 {
   font-size: 4rem;
   color: #F99417;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 7rem;
+  
 }
 
 .about .title
 {
-
   font-size:3rem;
   color: white;
   text-align: center;
@@ -271,7 +268,6 @@ header .fa-times
 .about .row
 {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: center;
@@ -288,7 +284,7 @@ header .fa-times
 {
   font-size: 2rem;
   color: white;
-  padding: 1rem 0rem;
+
 }
 
 .about .content p
@@ -311,11 +307,81 @@ header .fa-times
 {
   height: 40rem;
   width: 40rem;
+} */
+
+
+
+
+.about .heading
+{
+  font-size: 4rem;
+  color: #F99417;
+  text-align: center;
+  padding-top: 7rem;
+
+  padding: 0 1rem;
+  
 }
 
+.about .title
+{
+  padding: 0 1rem;
 
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
 
+.about .row
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.about .row .image img
+{
+  height: 70vh;
+  width: 50vw;
+}
+
+.about .row .content
+{
+  padding-left: 5rem;
+}
+
+.about .row .content h3
+{
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+.about .content p
+{
+  font-size: 1.2rem;
+  color: white;
+  padding: 1rem 0rem;
+}
+
+.about .row .content button
+{
+  height: 3.5rem;
+  width: 17rem;
+  background-color: #F99417;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 .3rem 1rem black;
+  cursor: pointer;
+  transition: .2s;
+  font-size: 2rem;
+}
+.about .row .content button:hover
+{
+  letter-spacing: .2rem;
+  opacity: .2rem;
+}
 
 
 
@@ -391,4 +457,19 @@ header .fa-times
     display: block;
   } */
 
+  .about .row .image img
+{
+  height: 60vh;
+  width: 90vw;
+}
+
+.about .row
+{
+  flex-flow: column-reverse;
+}
+
+.about .row .content
+{
+  padding: 0 2.5rem;
+}
 }
