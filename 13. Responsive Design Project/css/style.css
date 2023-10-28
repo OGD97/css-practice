@@ -81,11 +81,11 @@ header .navbar ul li a
 }
 
 header .fa-bars:hover,
+header .navbar ul li :active,
 header .navbar ul li a:hover
 {
   background-color: var(--orange);
   color: #333;
-
 }
 
 .fas
@@ -384,6 +384,60 @@ header .fa-times
 }
 
 
+
+
+.teacher .heading
+{
+  font-size: 4rem;
+  color: #F99417;
+  text-align: center;
+  padding-top: 5rem;
+
+  /* padding: 0 1rem; */
+  
+}
+
+.teacher .title
+{
+  /* padding: 0 1rem; */
+
+  font-size: 2rem;
+  color: #ffff;
+  text-align: center;
+}
+
+.teacher .card-container
+{
+  padding-top: 5rem;
+  width: 100vw;
+  height: 20rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.teacher .card
+{
+  background-color: #F99417;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher .card-container .card img
+{
+  height: 1rem;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher .icons
+{
+  
+}
 
 
 
