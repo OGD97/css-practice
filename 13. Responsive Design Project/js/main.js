@@ -19,6 +19,16 @@ $(document).ready(function(){
       $('header').removeClass('header-active');
     }
 
+    $('section').each(function(){
+      var top = $(window).scrollTop();
+      var id = $(this).attr('id');
+      var height = $(this).height();
+      
+
+
+    });
+
+
   });
 
 });

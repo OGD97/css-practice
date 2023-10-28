@@ -317,15 +317,15 @@ header .fa-times
   font-size: 4rem;
   color: #F99417;
   text-align: center;
-  padding-top: 7rem;
+  padding-top: 5rem;
 
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   
 }
 
 .about .title
 {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 
   font-size: 2rem;
   color: white;
@@ -470,6 +470,7 @@ header .fa-times
 
 .about .row .content
 {
-  padding: 0 10rem;
+  padding: 0 7rem;
 }
+
 }
