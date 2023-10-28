@@ -29,7 +29,7 @@ html
 body
 {
   background-color: #333;
-  height: 3000px;
+  height: 100vh;
 }
 
 /* HEADER START */
@@ -147,7 +147,7 @@ header .fa-times
   color: white;
   padding: 0;
   margin: 0;
-  text-shadow: 0 .3rem .5rem black;
+  text-shadow: 0 .3rem .5rem rgb(0,0,0,.3);
   text-transform: uppercase;
 }
 
@@ -317,7 +317,7 @@ header .fa-times
   font-size: 4rem;
   color: #F99417;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 7rem;
 
   /* padding: 0 1rem; */
   
@@ -441,13 +441,61 @@ header .fa-times
   
 }
 
-.teacher .icons
+.teacher .card-container .card h3
 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--orange);
   
 }
 
+.teacher .card-container .card p
+{
+  text-align: center;
+  font-size: 1.25rem;
+  padding: .5rem 0;
+  color: white;
+}
 
 
+.teacher .icons
+{
+  text-align: center;
+}
+
+.teacher .icons a
+{
+  color: white;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+
+
+footer
+{
+  background-color: var(--orange);
+}
+
+footer .bottom-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer .bottom-container h3
+{
+  font-size: 1.5rem;
+  color: white;
+}
+
+footer a
+{
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 1rem;
+}
 
 
 
