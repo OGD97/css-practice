@@ -383,8 +383,13 @@ header .fa-times
   opacity: .8rem;
 }
 
+/* Teacher START */
 
 
+.teacher
+{
+  /* background-color: blue; */
+}
 
 .teacher .heading
 {
@@ -408,30 +413,32 @@ header .fa-times
 
 .teacher .card-container
 {
-  padding-top: 5rem;
-  width: 100vw;
-  height: 20rem;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  /* background-color: white; */
+  /* gap: 2rem; */
 }
 
 .teacher .card
 {
-  background-color: #F99417;
-  padding: 1rem;
+  /* background-color: #F99417; */
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  margin: 2rem;
 }
 
 .teacher .card-container .card img
 {
-  height: 1rem;
-  width: fit-content;
-  justify-content: center;
-  align-items: center;
+  height: 30rem;
+  width: 20rem;
+  object-fit:cover;
+  border-radius: 2rem;
+  filter: drop-shadow(2px 4px 6px rgb(0,0,0,.3));
+  
 }
 
 .teacher .icons
